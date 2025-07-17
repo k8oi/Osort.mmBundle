@@ -1,0 +1,9 @@
+{	name = "Sort E-Mail";
+	uuid = "26624A3D-891E-4A23-B608-25E8757F63ED";
+	keyEquivalent = "~s";
+	input = "html";
+	environment = "MM_FROM=${from}\nMM_TO=${to}\nMM_SUBJECT=${subject}\nMM_DATE=${date}";
+	command = '#!/bin/bash\n"${MM_BUNDLE_SUPPORT}/bin/sort.sh"';
+	output = "actions";
+	executionMode = "singleMessage";
+}
