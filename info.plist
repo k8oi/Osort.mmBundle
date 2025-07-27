@@ -1,6 +1,6 @@
 {	"contactEmailRot13" = "jim@batesiv.net";
 	contactName = "Jim Bates";
 	description = "OpenAI API E-Mail Sort";
-	name = "Osort";
+	name = "Otag";
 	uuid = "2217EC08-7BBE-48EC-B9D0-527A213D8D10";
 }
